@@ -1,7 +1,7 @@
 import { catchAsyncError } from "../Middlewares/catchAsyncError.js";
 import { User } from "../Models/User.js";
 import ErrorHandler from "../Utils/ErrorHandler.js";
-import { sendEmail } from "../Utils/SendEmail.js";
+import { sendEmail } from "../Utils/sendEmail.js";
 import { sendToken } from "../Utils/SendToken.js";
 import crypto from "crypto";
 import { Course } from "../Models/Course.js";
